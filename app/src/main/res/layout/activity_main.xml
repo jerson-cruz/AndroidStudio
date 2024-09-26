@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# Documento"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/input_documento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su documento"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/input_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su contraseña"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/button_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si no te has registrado, haz clic aquí"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
